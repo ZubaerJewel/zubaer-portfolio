@@ -21,7 +21,7 @@ function Footer() {
             alt=""
           /> */}
 
-          <h1 className="text-white font-bold text-2xl ml-9">Yeasins</h1>
+          <h1 className="text-white font-bold text-2xl ml-9">Zubaer Hossain</h1>
           <h1 className="text-white font-bold text-xl ml-9">
             MERN Stack Developer
           </h1>
@@ -48,11 +48,11 @@ function Footer() {
           <p className="text-gray-400 text-sm leading-loose">
             123 Main St.
             <br />
-            Brahmanbaria, Bangladesh
+            Jashore, Bangladesh
             <br />
-            +880 1927-048579
+            +880 1839666712
             <br />
-            yeasin51570@gmail.com
+            zubaer5jewel.160@gmail.com
           </p>
         </div>
 

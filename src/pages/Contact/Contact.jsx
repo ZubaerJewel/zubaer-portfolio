@@ -40,7 +40,7 @@ const Contact = () => {
           <p className="my-3 dark:text-[#729CB8]">
             The phrasal sequence of the is now so that many campaign and benefit
           </p>
-          <p className="dark:text-[#904dfc]">+8801927048579</p>
+          <p className="dark:text-[#904dfc]">+8801839666712</p>
         </div>
         <div className="text-center md:w-96" data-aos="zoom-in">
           <FaEnvelope className="flex mx-auto  text-4xl bg-gray-500]  bg-[#0F172A] transform hover:-translate-y-3  border-2 w-16 h-16 rounded-full duration-500 text-indigo-500 border-[#6B44B9] hover:bg-[#254181] hover:text-white p-4"></FaEnvelope>
@@ -48,7 +48,7 @@ const Contact = () => {
           <p className="my-3  dark:text-[#729CB8]">
             The phrasal sequence of the is now so that many campaign and benefit
           </p>
-          <p className="dark:text-[#904dfc]">yeasin51570@gmail.com</p>
+          <p className="dark:text-[#904dfc]">zubaer5jewel.16@gmail.com</p>
         </div>
         <div className="text-center md:w-96" data-aos="zoom-in">
           <FaLocationArrow className="flex mx-auto  text-4xl bg-gray-500]  bg-[#0F172A] transform hover:-translate-y-3  border-2 w-16 h-16 rounded-full duration-500 text-indigo-500 border-[#6B44B9] hover:bg-[#254181]  hover:text-white p-4"></FaLocationArrow>
@@ -58,7 +58,7 @@ const Contact = () => {
           <p className="my-3 dark:text-[#729CB8]">
             The phrasal sequence of the is now so that many campaign and benefit
           </p>
-          <p className="dark:text-[#904dfc]">Dhaka, Bangladesh</p>
+          <p className="dark:text-[#904dfc]">Jashore, Bangladesh</p>
         </div>
       </div>
 

@@ -23,7 +23,7 @@ const Projects = () => {
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
               <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center text-center transition-all duration-500 group-hover:translate-y-0">
                 <h1 className="font-dmserif text-2xl font-bold text-white">
-                  Chef-Recipe
+                  eating-well
                 </h1>
                 <p className="mb-3 italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                   <p className=" font-semibold">Technology used</p>
@@ -32,7 +32,7 @@ const Projects = () => {
                 </p>
 
                 <div className="flex items-center gap-3">
-                  <a href="https://github.com/yeasin550/chef-recipe-client">
+                  <a href="https://github.com/ZubaerJewel/eating-well-client">
                     <button className="flex items-center gap-3 rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 bg-gradient-to-r from-[#391263] to-yellow-600 hover:to-blue-500  justify-center focus:outline-none hover:bg-gray-600">
                       <span>
                         <FaGithub></FaGithub>
@@ -40,7 +40,7 @@ const Projects = () => {
                       GitHub
                     </button>
                   </a>
-                  <a href="https://chef-recipe-9485d.web.app/">
+                  <a href="https://eatingwell-1532f.web.app/">
                     <button className="flex items-center gap-3 rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60  bg-gradient-to-r from-[#49177e] to-green-600 hover:to-orange-500  justify-center ml-2 focus:outline-none hover:bg-gray-600">
                       <span>
                         <FaEye></FaEye>
@@ -63,7 +63,7 @@ const Projects = () => {
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
               <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center text-center transition-all duration-500 group-hover:translate-y-0">
                 <h1 className="font-dmserif text-2xl font-bold text-white">
-                  Toy Marketplace
+                Educational Toys
                 </h1>
                 <p className="mb-3 italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                   <p className=" font-semibold">Technology used</p>
@@ -71,7 +71,7 @@ const Projects = () => {
                   Express.js, Firebase
                 </p>
                 <div className="flex items-center gap-3">
-                  <a href="https://github.com/yeasin550/toy-marketplace-client">
+                  <a href="https://github.com/ZubaerJewel/toy-shop/tree/main">
                     <button className="flex items-center gap-3 rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 bg-gradient-to-r from-[#391263] to-yellow-600 hover:to-blue-500  justify-center focus:outline-none hover:bg-gray-600">
                       <span>
                         <FaGithub></FaGithub>
@@ -79,7 +79,7 @@ const Projects = () => {
                       GitHub
                     </button>
                   </a>
-                  <a href="https://toy-marketplace-c4765.web.app/">
+                  <a href="https://toy-shop-2730e.firebaseapp.com/">
                     <button className="flex items-center gap-3 rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60  bg-gradient-to-r from-[#49177e] to-green-600 hover:to-orange-500  justify-center ml-2 focus:outline-none hover:bg-gray-600">
                       <span>
                         <FaEye></FaEye>
@@ -102,7 +102,7 @@ const Projects = () => {
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
               <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center  text-center transition-all duration-500 group-hover:translate-y-0">
                 <h1 className="font-dmserif text-2xl font-bold text-white">
-                  Martial Art
+                  Inner Engineering
                 </h1>
                 <p className="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                   <p className="text-semibold">Technology used:</p>
@@ -111,7 +111,7 @@ const Projects = () => {
                   Form
                 </p>
                 <div className="flex items-center gap-3">
-                  <a href="https://github.com/yeasin550/summer-camp-school-client">
+                  <a href="https://github.com/ZubaerJewel/Yoga-Meditation-Client">
                     <button className="flex items-center gap-3 rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 bg-gradient-to-r from-[#391263] to-yellow-600 hover:to-blue-500  justify-center focus:outline-none hover:bg-gray-600">
                       <span>
                         <FaGithub></FaGithub>
@@ -119,7 +119,7 @@ const Projects = () => {
                       GitHub
                     </button>
                   </a>
-                  <a href="https://summer-camp-school-8acc2.web.app/">
+                  <a href=" https://yoga-meditation-f2f5a.web.app/">
                     <button className="flex items-center gap-3 rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60  bg-gradient-to-r from-[#49177e] to-green-600 hover:to-orange-500  justify-center ml-2 focus:outline-none hover:bg-gray-600">
                       <span>
                         <FaEye></FaEye>
