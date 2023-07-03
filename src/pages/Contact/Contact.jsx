@@ -16,7 +16,8 @@ const Contact = () => {
 
     return (
           <div className='my-10 mx-20 rounded-lg pb-5' id='contact' data-aos="fade-up" data-aos-duration="2000" data-aos-easing="ease-out-cubic">
-            <h2 className='text-center text-4xl  font-bold mt-5 pt-5'>Contact Me</h2>
+            <h2 className='bg-gradient-to-r 
+                from-[#62d118] to-purple-800 text-center text-7xl  font-bold mt-5 '>Contact Me</h2>
             <div className='group relative cursor-pointer grid lg:grid-cols-2 gap-5'>
                 <div>
                 <form onSubmit={handleContact}>
@@ -45,7 +46,7 @@ const Contact = () => {
                 </div>
                 <div className="text-justify py-8 ml-20">
                     <h2 className='text-center text-2xl font-bold m-5 p-5 border-b-2 border-gray-500 w-1/2 mx-auto'>Contact Info</h2>
-                    <div className='flex items-center justify-center gap-3 text-center ml-10 pt-5 font-semibold text-xl'>
+                    <div className='flex items-center  gap-3 text-center ml-10 pt-5 font-semibold text-xl'>
                         <FaMailBulk></FaMailBulk>
                         <p>zubaer5jewel.16@gmail.com</p>
                     </div>

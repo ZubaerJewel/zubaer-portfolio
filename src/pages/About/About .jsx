@@ -8,10 +8,11 @@ import { HashLink } from "react-router-hash-link";
 const AboutMe = () => {
   return (
     <div id="about">
-    <div  className="h-5/6 mx-20" data-aos="fade-up">
-       <p className="text-6xl text-center font-bold mb-20 mt-20">
+    <div  className="h-5/6 mx-20  dark:text-[#8892B0]" data-aos="fade-up">
+       <p className=" bg-gradient-to-r 
+                from-[#62d118] to-purple-800 text-6xl text-center font-bold mb-20 mt-20">
             About Me
-          </p>
+          </p> 
          
       <div className="flex flex-col dark:text-[#8892B0] md:flex-row align-middle">
         <div className="flex flex-col m-3 md:w-1/2">

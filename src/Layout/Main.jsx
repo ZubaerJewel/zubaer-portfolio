@@ -5,9 +5,10 @@ import Footer from "../components/Footer/Footer";
 const Main = () => {
   return (
     // dark:bg-black dark:text-white
-    <div className="dark:bg-[#0F172A] dark:text-white text-black">
+    <div className=" text-black bg-gradient-to-r 
+    from-[#62d118] to-purple-800 font-serif">
       <Navbar></Navbar>
-      <div className="dark:pl-6 dark:pr-8 pl-6 pr-8">
+      <div className="mx-20 dark:bg-[#0F172A] dark:text-white dark:pl-6 dark:pr-8 pl-6 pr-8">
         <Outlet></Outlet>
       </div>
       <Footer />

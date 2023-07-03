@@ -3,7 +3,9 @@
 const Skills = () => {
   return (
       <div id="skills">
-          <h1 data-aos="fade-up" className='text-center font-bold text-6xl mb-10 mt-20'>Skills</h1>
+          <h1 data-aos="fade-up" className='bg-gradient-to-r 
+                from-[#62d118] to-purple-800 text-center font-bold text-6xl
+                 dark:text-[#8892B0] mb-10 mx-20 mt-20'>Skills</h1>
 
 
           <div className="flex dark:text-[#8892B0] mx-20">

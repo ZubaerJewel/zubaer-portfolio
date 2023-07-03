@@ -7,13 +7,12 @@ import Projects from "../Projects/Projects";
 import Banner from "./Banner";
 const Home = () => {
   return (
-    <div className ="mx-auto  justify-center font-serif">
+    <div className ="">
       <Banner></Banner>
-      <About></About>
-      
-      <Projects></Projects>
       <Skills></Skills>
+      <Projects></Projects>
       <Cursor></Cursor>
+      <About></About>
       <Contact></Contact>
     </div>
   );
