@@ -41,7 +41,7 @@ const [theme, setTheme] = useState(() => {
 
   return (
     <nav className="dark:bg-[#0F172A] bg-gray-50 bg-gradient-to-r 
-    from-[#62d118] to-purple-800 dark:shadow-white dark:text-[#8da7ee] sticky top-0 z-50 shadow-md">
+    from-[#62d118] to-purple-800 shadow-white dark:text-[#8da7ee] sticky top-0 z-50 shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between dark:border-b-blue-100 border-[1px] border-t-0 border-l-0 border-r-0 h-16">
           <div className="flex items-center">
@@ -60,7 +60,7 @@ const [theme, setTheme] = useState(() => {
             </p>
           </div>
           <div className="hidden md:block flex-grow text-3xl">
-            <div className="ml-10 flex  items-baseline space-x-2 lg:ml-64">
+            <div className="ml-10 flex text-yellow-300 items-baseline space-x-2 lg:ml-64">
               <HashLink
                 to="#home"
                 smooth

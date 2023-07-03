@@ -5,13 +5,13 @@ const Skills = () => {
       <div id="skills">
           <h1 data-aos="fade-up" className='bg-gradient-to-r 
                 from-[#62d118] to-purple-800 text-center font-bold text-6xl
-                 dark:text-[#8892B0] mb-10 mx-20 mt-20'>Skills</h1>
+                 dark:text-[#8892B0] mb-10 mx-20 mt-20 text-yellow-300 shadow-lg shadow-white'>Skills</h1>
 
 
           <div className="flex dark:text-[#8892B0] mx-20">
               <div className="grid grid-cols-1 justify-center md:grid-cols-4 gap-48">
                   <div data-aos="fade-right" className="">
-                      <h3 className="text-2xl font-semibold mb-2">Expertise</h3>
+                      <h3 className="text-2xl shadow-yellow-700 font-semibold mb-2">Expertise</h3>
                       <ul>
                           <li>Html</li>
                           <li>CSS</li>

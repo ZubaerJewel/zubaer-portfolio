@@ -16,8 +16,8 @@ const Contact = () => {
 
     return (
           <div className='my-10 mx-20 rounded-lg pb-5' id='contact' data-aos="fade-up" data-aos-duration="2000" data-aos-easing="ease-out-cubic">
-            <h2 className='bg-gradient-to-r 
-                from-[#62d118] to-purple-800 text-center text-7xl  font-bold mt-5 '>Contact Me</h2>
+            <h2 className='shadow-lg shadow-white bg-gradient-to-r 
+                from-[#62d118] my-20 to-purple-800 text-center text-7xl text-yellow-300 font-bold mt-5 '>Contact Me</h2>
             <div className='group relative cursor-pointer grid lg:grid-cols-2 gap-5'>
                 <div>
                 <form onSubmit={handleContact}>

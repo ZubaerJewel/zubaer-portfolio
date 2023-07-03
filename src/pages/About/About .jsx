@@ -9,8 +9,8 @@ const AboutMe = () => {
   return (
     <div id="about">
     <div  className="h-5/6 mx-20  dark:text-[#8892B0]" data-aos="fade-up">
-       <p className=" bg-gradient-to-r 
-                from-[#62d118] to-purple-800 text-6xl text-center font-bold mb-20 mt-20">
+       <p className="shadow-lg shadow-white  bg-gradient-to-r 
+                from-[#62d118] to-purple-800 text-6xl text-center text-yellow-300 font-bold mb-20 mt-20">
             About Me
           </p> 
          

@@ -11,14 +11,11 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <footer className="bg-gradient-to-r from-slate-900 via-[#280742] to-slate-900 border-t-[#406b4c] border-t-[1px]  pt-12 pb-8 px-4 md:px-10 mt-12">
+    <footer className=" dark:text-white text-black bg-gradient-to-r 
+    from-gray-800 via-green-900  to-purple-500  dark:bg-gray pt-12 pb-8 px-4 md:px-10 text-xl mt-12">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
         <div className="col-span-1 text-left">
-          {/* <img
-            className="w-56 h-40"
-            src="https://i.ibb.co/PWkVHyy/2411-removebg-preview.png"
-            alt=""
-          /> */}
+         
           <img
                 className="w-20 h-20 ml-20"
                 src="https://i.ibb.co/fH4mhNq/Zubaer-Hossain300x350.jpg"
@@ -31,24 +28,24 @@ function Footer() {
         </div>
         <div className="col-span-1">
           <h2 className="text-white text-lg font-medium mb-4">Navigation</h2>
-          <ul className="text-gray-400 text-sm leading-loose">
+          <ul className="text-gray-400 text-lg leading-loose">
             <li>
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/about">About us</Link>
+              <Link to="/about">About Me</Link>
             </li>
             <li>
-              <Link to="/projects">Project</Link>
+              <Link to="/projects">Projects</Link>
             </li>
             <li>
-              <Link to="/contact">Contact us</Link>
+              <Link to="/contact">Contact Me</Link>
             </li>
           </ul>
         </div>
         <div className="col-span-1">
           <h2 className="text-white text-lg font-medium mb-4">Contact Us</h2>
-          <p className="text-gray-400 text-sm leading-loose">
+          <p className="text-gray-400 text-lg leading-loose">
             123 Main St.
             <br />
             Jashore, Bangladesh
@@ -60,6 +57,7 @@ function Footer() {
         </div>
 
         <div className="flex items-center space-x-4">
+          <p className="text-white">Follow me</p>
           <a
             href="https://www.facebook.com/zubaer.juel"
             className="relative group"
