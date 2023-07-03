@@ -7,8 +7,9 @@ import { HashLink } from "react-router-hash-link";
 
 const AboutMe = () => {
   return (
-    <div className="h-5/6" data-aos="fade-up">
-       <p className="text-6xl text-center mt-10">
+    <div id="about">
+    <div  className="h-5/6" data-aos="fade-up">
+       <p className="text-6xl text-center font-bold mb-20 mt-20">
             About Me
           </p>
          
@@ -64,6 +65,7 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

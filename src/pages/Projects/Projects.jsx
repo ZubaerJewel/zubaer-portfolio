@@ -5,7 +5,7 @@ import project3 from '../../assets/project3.png'
 const Projects = () => {
     return (
       <div id="projects" className="my-5">
-        <h1 className="text-center font-semibold text-4xl my-10 dark:text-[#abc1ff]">
+        <h1 className="text-center font-bold text-4xl my-10 dark:text-[#abc1ff]">
           My Project
         </h1>
         {/* project section  */}
