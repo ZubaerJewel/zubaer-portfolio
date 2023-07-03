@@ -4,11 +4,11 @@ const Cursor = () => {
       <div>
         <AnimatedCursor
           innerSize={10}
-          outerSize={10}
-          color="354, 81, 758"
+          outerSize={20}
+          color="300, 81, 758"
           outerAlpha={0.2}
-          innerScale={1}
-          outerScale={6}
+          innerScale={4}
+          outerScale={8}
           clickables={[
             "a",
             'input[type="text"]',

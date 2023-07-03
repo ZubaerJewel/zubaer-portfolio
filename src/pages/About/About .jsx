@@ -8,12 +8,12 @@ import { HashLink } from "react-router-hash-link";
 const AboutMe = () => {
   return (
     <div id="about">
-    <div  className="h-5/6" data-aos="fade-up">
+    <div  className="h-5/6 mx-20" data-aos="fade-up">
        <p className="text-6xl text-center font-bold mb-20 mt-20">
             About Me
           </p>
          
-      <div className="flex flex-col md:flex-row align-middle">
+      <div className="flex flex-col dark:text-[#8892B0] md:flex-row align-middle">
         <div className="flex flex-col m-3 md:w-1/2">
         
           <p className="text-6xl  border font-mono rounded-lg shadow-lg p-6 mt-3 mb-3 animate__animated animate__slideInLeft animate__delay-2s">
@@ -22,12 +22,12 @@ const AboutMe = () => {
           <p className="text-3xl border rounded-lg shadow-lg p-6 mb-3 animate__animated animate__slideInLeft animate__delay-3s">
             I am a Web Developer
           </p>
-          <p className="text-2xl border rounded-lg shadow-lg p-6 mb-3 animate__animated animate__slideInLeft animate__delay-4s">
+          <p className="text-2xl dark:text-[#8892B0] border rounded-lg shadow-lg p-6 mb-3 animate__animated animate__slideInLeft animate__delay-4s">
             I have a passion for creating intuitive<br></br> and user-friendly
             web experiences.
           </p>
         </div>
-        <div className="m-3 p-3 border shadow-lg rounded-lg md:w-1/2 animate__animated animate__slideInRight animate__delay-5s">
+        <div className="m-3 p-3 leading-6 dark:text-[#8892B0] border text-justify shadow-lg rounded-lg md:w-1/2 animate__animated animate__slideInRight animate__delay-5s">
           <p>
             I am a Highly motivated web developer with a passion for creating
             visually appealing and user friendly websites. I am a continuous

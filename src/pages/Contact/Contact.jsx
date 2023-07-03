@@ -15,12 +15,12 @@ const Contact = () => {
   }
 
     return (
-          <div className='my-10  rounded-lg pb-5' id='contact' data-aos="fade-up" data-aos-duration="2000" data-aos-easing="ease-out-cubic">
+          <div className='my-10 mx-20 rounded-lg pb-5' id='contact' data-aos="fade-up" data-aos-duration="2000" data-aos-easing="ease-out-cubic">
             <h2 className='text-center text-4xl  font-bold mt-5 pt-5'>Contact Me</h2>
-            <div className='grid lg:grid-cols-2 gap-5'>
+            <div className='group relative cursor-pointer grid lg:grid-cols-2 gap-5'>
                 <div>
                 <form onSubmit={handleContact}>
-                <div className="form-control">
+                <div className="dark:text-[#8892B0] form-control">
                   <label className="label">
                     <span className="label-text text-gray-500 font-bold">Name</span>
                   </label>
@@ -43,17 +43,17 @@ const Contact = () => {
                 </form>
 
                 </div>
-                <div className="">
-                    <h2 className='text-center text-2xl font-semibold m-5 p-5 border-b-2 border-gray-500 w-1/2 mx-auto'>Contact Info</h2>
-                    <div className='flex items-center justify-center gap-3 text-center ml-10 pt-5 font-semibold text-2xl'>
+                <div className="text-justify py-8 ml-20">
+                    <h2 className='text-center text-2xl font-bold m-5 p-5 border-b-2 border-gray-500 w-1/2 mx-auto'>Contact Info</h2>
+                    <div className='flex items-center justify-center gap-3 text-center ml-10 pt-5 font-semibold text-xl'>
                         <FaMailBulk></FaMailBulk>
                         <p>zubaer5jewel.16@gmail.com</p>
                     </div>
-                    <div className='flex items-center justify-center gap-3 text-center pt-5 font-semibold text-2xl'>
+                    <div className='flex items-center justify-center gap-3 text-center pt-5 font-semibold text-xl'>
                         <FaPhoneAlt></FaPhoneAlt>
                         <p>+880 1839-666712</p>
                     </div>
-                    <div className='flex items-center justify-center gap-3 text-center pt-5 font-semibold text-2xl'>
+                    <div className='flex items-center justify-center gap-3 text-center pt-5 font-semibold text-xl'>
                         <FaMapMarkerAlt></FaMapMarkerAlt>
                         <p>Jashore, Bangladesh</p>
                     </div>

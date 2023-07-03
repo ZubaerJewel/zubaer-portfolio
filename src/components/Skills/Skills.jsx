@@ -6,8 +6,8 @@ const Skills = () => {
           <h1 data-aos="fade-up" className='text-center font-bold text-6xl mb-10 mt-20'>Skills</h1>
 
 
-          <div className="flex justify-center">
-              <div className="grid grid-cols-4 gap-48">
+          <div className="flex dark:text-[#8892B0] mx-20">
+              <div className="grid grid-cols-1 justify-center md:grid-cols-4 gap-48">
                   <div data-aos="fade-right" className="">
                       <h3 className="text-2xl font-semibold mb-2">Expertise</h3>
                       <ul>

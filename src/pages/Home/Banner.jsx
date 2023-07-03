@@ -25,7 +25,7 @@ const Banner = () => {
             I am a {text}
           </h1>
           {/* <Cursor cursorColor="green" /> */}
-          <p className="sm:mb-10 text-justify leading-6 dark:text-[#8892B0] font-mono">
+          <p className="sm:mb-10 text-justify leading-6 dark:text-[#8892B0] ">
             Welcome to my portfolio!!! I am a passionate Mern stack web developer with expertise in HTML, CSS, JavaScript, React, Express.js, Node.js, and MongoDB. With a strong foundation in front-end development, I strive to create captivating user
             interfaces and seamless user experiences. I enjoy turning ideas into functional and visually appealing websites and Web Applications.
           </p>

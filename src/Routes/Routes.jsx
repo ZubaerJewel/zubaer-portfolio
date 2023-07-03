@@ -3,7 +3,7 @@ import Main from "../Layout/Main";
 
 import Contact from "../pages/Contact/Contact";
 import About from "../pages/About/About ";
-import MyProfile from "../components/MyProfile/MyProfile";
+// import MyProfile from "../components/MyProfile/MyProfile";
 import Home from "../pages/Home/Home";
 import Projects from "../pages/Projects/Projects";
 
@@ -25,10 +25,10 @@ const router = createBrowserRouter([
         path: "/about",
         element: <About></About>,
       },
-      {
-        path: "/myProfile",
-        element: <MyProfile></MyProfile>,
-      },
+      // {
+      //   path: "/myProfile",
+      //   element: <MyProfile></MyProfile>,
+      // },
       {
         path: "/projects",
         element: <Projects></Projects>,

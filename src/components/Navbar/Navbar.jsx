@@ -52,9 +52,10 @@ const [theme, setTheme] = useState(() => {
               />
             </HashLink>
 
-            <p className="text-lg font-bold">
-              <span className="dark:text-white text-red-600">Z</span>ubaer
-              <span className="dark:text-white text-red-600"> Hossain</span>
+            <p className="text-2xl text-yellow-300 font-bold bg-gradient-to-r 
+                from-[#62d118] to-purple-800 hover:from-blue-700">
+              <span className="dark:from-purple-800 to-[#62d118]">Z</span>ubaer
+              <span className="dark:from-purple-800 to-[#62d118]"> Hossain</span>
             </p>
           </div>
           <div className="hidden md:block flex-grow text-3xl">
