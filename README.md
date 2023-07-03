@@ -1,9 +1,10 @@
 
 ## README.md 
- - [This is my portfolio website!!!]
+
+ - [------welcome to my portfolio website------------]
 
 ## Live Link
-[Live preview](Coming SooN) =>  
+[Live preview] =>  
 
 
 

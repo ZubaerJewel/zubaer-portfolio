@@ -26,10 +26,14 @@ const Banner = () => {
           </h1>
           {/* <Cursor cursorColor="green" /> */}
           <p className="sm:mb-10 text-justify leading-6 dark:text-[#8892B0] ">
-            Welcome to my portfolio!!! I am a passionate Mern stack web developer with expertise in HTML, CSS, JavaScript, React, Express.js, Node.js, and MongoDB. With a strong foundation in front-end development, I strive to create captivating user
+            Welcome to my portfolio!!!  I aim to master the MERN technologies (MongoDB, Express.js, React.js, Node.js) and build scalable, efficient, 
+            and secure web solutions. I look forward to collaborating with cross-functional teams, staying updated with emerging technologies, and
+             continuously improving my problem-solving and development skills. Ultimately, my goal is to contribute to impactful projects and advance
+              my career in web development. I am a passionate Mern stack web developer with expertise in HTML, CSS, JavaScript, React, Express.js, Node.js,
+               and MongoDB. With a strong foundation in front-end development, I strive to create captivating user
             interfaces and seamless user experiences. I enjoy turning ideas into functional and visually appealing websites and Web Applications.
           </p>
-          <div className="flex flex-col gap-5">
+          <div className="flex  gap-5">
             <a href="https://drive.google.com/file/d/1ILwym6on5wZpjswXn65mJ2s9lorqg-57/view?usp=drive_link" download>
               <button
                 type="submit"
@@ -60,21 +64,9 @@ const Banner = () => {
             <div className="absolute duration-5"></div>
             <img
               src="https://i.ibb.co/fH4mhNq/Zubaer-Hossain300x350.jpg"
-              className="rounded-md h-96 w-96 "
+              className="rounded-md my-20 h-96 w-96 "
             />
-            {/* <img
-              src="https://i.ibb.co/ZcNc46R/image-removebg-preview-removebg-preview-1.jpg"
-              className="rounded-md h-96 w-96 "
-            /> */}
-
-            {/* <img
-              src="https://i.ibb.co/NKB4RQd/1660539982984.jpg"
-              className="rounded-md h-96 w-96"
-            /> */}
-            {/* <img
-              src="https://i.ibb.co/0FxJLkK/IMG-20221106-155917-409.jpg"
-              className="rounded-md h-96 w-96"
-            /> */}
+      
           </div>
         </div>
         

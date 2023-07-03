@@ -30,13 +30,19 @@ const AboutMe = () => {
         </div>
         <div className="m-3 p-3 leading-6 dark:text-[#8892B0] border text-justify shadow-lg rounded-lg md:w-auto animate__animated animate__slideInRight animate__delay-5s">
           <p>
-            I am a Highly motivated web developer with a passion for creating
+          I take pride in writing clean and maintainable code, and I'm always on 
+          the lookout for the latest trends and advancements in web development. 
+          Problem-solving is my forte, and I love finding creative solutions to technical challenges.
+
+Collaboration is at the core of my work style, and I thrive in team environments 
+where I can contribute my skills and learn from others. I'm dedicated to continuous learning and seek opportunities to enhance my skills and stay up-to-date with emerging technologies.I am a Highly motivated web developer with a passion for creating
             visually appealing and user friendly websites. I am a continuous
             learner and always stay up to date with emerging web technologies.
             Committed to delivering exceptional user experiences and driving
             innovation in web development industry.I am constantly seeking
             opportunities to challenge myself and push the boundaries of what
-            can be achieved on the web.
+            can be achieved on the web.As a MERN stack web developer, my goal is to make a positive impact by creating cutting-edge web applications that deliver a delightful user experience. I'm excited to be part of the ever-evolving world of web 
+            development and contribute to its growth and innovation.
           </p>
           <div className="mt-3 ms-3 pt-6">
             <h3 className="text-2xl font-bold mb-6">Follow Me</h3>

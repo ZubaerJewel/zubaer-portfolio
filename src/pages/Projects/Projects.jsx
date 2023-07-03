@@ -7,7 +7,7 @@ const Projects = () => {
       <div id="projects" className="my-5 ">
         <h1 className="shadow-lg shadow-white text-yellow-300 bg-gradient-to-r 
                 from-[#62d118] to-purple-800 text-center font-bold text-7xl my-10 mx-20 dark:text-[#abc1ff]">
-          My Project
+          Projects
         </h1>
         {/* project section  */}
 
