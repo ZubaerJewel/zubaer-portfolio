@@ -1,6 +1,6 @@
 
 import "animate.css";
-import {  FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
+import {  FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 // import Header from "./Header";
 import "animate.css";
 import { HashLink } from "react-router-hash-link";
@@ -48,14 +48,14 @@ const AboutMe = () => {
                 alt=""
               />
             </HashLink>
-              <a href="https://web.facebook.com/nashif910" target="blank">
+              <a href="https://www.facebook.com/zubaer.juel" target="blank">
                 <FaFacebook className="btn btn-circle me-4"></FaFacebook>
               </a>
-              <a href="https://twitter.com/AN361770" target="blank">
-                <FaTwitter className="btn btn-circle me-4"></FaTwitter>
+              <a href="https://github.com/ZubaerJewel" target="blank">
+                <FaGithub className="btn btn-circle me-4"></FaGithub>
               </a>
               <a
-                href="https://www.linkedin.com/in/ahmed-nashif-9840941a0/"
+                href="https://www.linkedin.com/in/md-zubaer-hossain-04935b102/"
                 target="blank"
               >
                 <FaLinkedin className="btn btn-circle me-4"></FaLinkedin>
