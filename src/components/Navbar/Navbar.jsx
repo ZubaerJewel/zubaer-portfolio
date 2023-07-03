@@ -137,17 +137,7 @@ const [theme, setTheme] = useState(() => {
                   />
                 )}
               </div>
-              {/* 
-              {isProfileOpen && (
-                <div className="absolute right-0 mt-2 w-48  rounded-lg shadow-xl py-2">
-                  <Link
-                    to="/myProfile"
-                    className="block px-4 py-2  hover:bg-[#49177e]"
-                  >
-                    My Profile
-                  </Link>
-                </div>
-              )} */}
+              
             </div>
           </div>
           <div className="-mr-2 flex md:hidden">

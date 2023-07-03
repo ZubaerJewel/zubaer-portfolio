@@ -1,11 +1,10 @@
 import {
   FaFacebookF,
-  FaInstagram,
-
+ 
   FaGithub,
 
   // FaGithubSquare,
-  // FaLinkedin,
+  FaLinkedin,
   // FaSnapchat,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -58,7 +57,7 @@ function Footer() {
 
         <div className="flex items-center space-x-4">
           <a
-            href="https://www.facebook.com/profile.php?id=100068116817527"
+            href="https://www.facebook.com/zubaer.juel"
             className="relative group"
           >
             <div className="h-10 w-10 bg-blue-500 rounded-full flex items-center justify-center transform transition-transform duration-300 hover:scale-110">
@@ -71,28 +70,28 @@ function Footer() {
             </span>
           </a>
 
-          <a href="https://github.com/yeasin550" className="relative group">
+          <a href="https://github.com/ZubaerJewel" className="relative group">
             <div className="h-10 w-10 bg-black rounded-full flex items-center justify-center transform transition-transform duration-300 hover:rotate-12">
               <svg className="h-6 w-6 text-2xl text-white">
                 <FaGithub></FaGithub>
               </svg>
             </div>
-            <span className="absolute bottom-10 left-2 bg-white text-black text-sm px-1 py-1 rounded-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              Git $ GitHub
+            <span className="absolute bottom-10 left-2 bg-blue-500 text-white text-sm px-1 py-1 rounded-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+             GitHub
             </span>
           </a>
 
           <a
-            href="https://www.instagram.com/_y_e_a__s_i_n_/"
+            href="https://www.linkedin.com/in/md-zubaer-hossain-04935b102/"
             className="relative group"
           >
-            <div className="h-10 w-10 bg-white rounded-full flex items-center justify-center transform transition-transform duration-300 hover:scale-110 hover:rotate-12">
-              <svg className="h-6 w-6 text-2xl text-red-700">
-                <FaInstagram></FaInstagram>
+            <div className="h-10 w-10 bg-blue-200 rounded-full flex items-center justify-center transform transition-transform duration-300 hover:scale-110 hover:rotate-12">
+              <svg className="h-6 w-6 text-2xl text-blue-700">
+                <FaLinkedin></FaLinkedin>
               </svg>
             </div>
-            <span className="absolute left-10 bottom-0 bg-white text-black text-sm px-1 py-1  rounded-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              Instagram
+            <span className="absolute left-10 bottom-0 bg-blue-500 text-white text-sm px-1 py-1  rounded-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              LinkedIn
             </span>
           </a>
         </div>

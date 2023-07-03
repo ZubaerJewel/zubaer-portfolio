@@ -131,14 +131,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          {/* <div className="fixed bottom-16">
-            <p className="font-com text-2xl font-semibold text-white">
-              All Images are from{" "}
-              <a href="https://unsplash.com" className="text-blue-500">
-                Unsplash.com
-              </a>
-            </p>
-          </div> */}
+      
         </div>
       </div>
     );
