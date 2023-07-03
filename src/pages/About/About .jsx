@@ -1,17 +1,22 @@
 
 import "animate.css";
 import {  FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
-import Header from "./Header";
+// import Header from "./Header";
 import "animate.css";
+import { HashLink } from "react-router-hash-link";
 
 const AboutMe = () => {
   return (
     <div className="h-5/6" data-aos="fade-up">
-      <Header heading="About Me"></Header>
+       <p className="text-6xl text-center mt-10">
+            About Me
+          </p>
+         
       <div className="flex flex-col md:flex-row align-middle">
         <div className="flex flex-col m-3 md:w-1/2">
-          <p className="text-6xl border rounded-lg shadow-lg p-6 mt-3 mb-3 animate__animated animate__slideInLeft animate__delay-2s">
-            Ahmed Nashif
+        
+          <p className="text-6xl  border font-mono rounded-lg shadow-lg p-6 mt-3 mb-3 animate__animated animate__slideInLeft animate__delay-2s">
+            Zubaer Hossain
           </p>
           <p className="text-3xl border rounded-lg shadow-lg p-6 mb-3 animate__animated animate__slideInLeft animate__delay-3s">
             I am a Web Developer
@@ -35,6 +40,13 @@ const AboutMe = () => {
             <h3 className="text-2xl font-bold mb-6">Follow Me</h3>
             <div className="">
               {/* TODO:  */}
+              <HashLink to="#home" smooth>
+              <img
+                className="w-20 h-20 item-center"
+                src="https://i.ibb.co/fH4mhNq/Zubaer-Hossain300x350.jpg"
+                alt=""
+              />
+            </HashLink>
               <a href="https://web.facebook.com/nashif910" target="blank">
                 <FaFacebook className="btn btn-circle me-4"></FaFacebook>
               </a>
@@ -47,6 +59,7 @@ const AboutMe = () => {
               >
                 <FaLinkedin className="btn btn-circle me-4"></FaLinkedin>
               </a>
+           
             </div>
           </div>
         </div>

@@ -19,9 +19,13 @@ function Footer() {
             src="https://i.ibb.co/PWkVHyy/2411-removebg-preview.png"
             alt=""
           /> */}
-
+          <img
+                className="w-20 h-20 ml-20"
+                src="https://i.ibb.co/fH4mhNq/Zubaer-Hossain300x350.jpg"
+                alt=""
+              />
           <h1 className="text-white font-bold text-2xl ml-9">Zubaer Hossain</h1>
-          <h1 className="text-white font-bold text-xl ml-9">
+          <h1 className="text-white font-semibold text-lg font-mono ml-9">
             MERN Stack Developer
           </h1>
         </div>
@@ -98,7 +102,7 @@ function Footer() {
       </div>
       <div className="mt-8 border-t border-gray-700 pt-4">
         <p className="text-gray-400 text-sm text-center">
-          &copy; 2023 Company Name. All rights reserved.
+          &copy;ZubaerJewel @2023 All rights reserved.
         </p>
       </div>
     </footer>

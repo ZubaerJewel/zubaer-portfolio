@@ -6,16 +6,16 @@ import { HashLink } from "react-router-hash-link";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [isProfileOpen, setIsProfileOpen] = useState(false);
+  // const [isProfileOpen, setIsProfileOpen] = useState(false);
   // const [searchQuery, setSearchQuery] = useState("");
 
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
   };
 
-  const toggleProfileModal = () => {
-    setIsProfileOpen(!isProfileOpen);
-  };
+  // const toggleProfileModal = () => {
+  //   setIsProfileOpen(!isProfileOpen);
+  // };
 
 
 
