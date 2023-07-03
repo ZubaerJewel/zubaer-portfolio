@@ -19,7 +19,7 @@ const Banner = () => {
       >
         <div className="md:w-1/2 md:ml-16  md:pt-12 space-y-5">
           <h1 className="md:text-4xl text-2xl font-semibold dark:text-[#8892B0]">
-            Hi 👋 I am Zubaer Hossain !!!
+            Hi,<br></br> I am Zubaer Hossain !!!
           </h1>
           <h1 className="md:text-4xl text-2xl font-semibold dark:text-[#8da7ee]">
             I am a {text}
@@ -29,13 +29,13 @@ const Banner = () => {
             Welcome to my portfolio!!! I am a passionate Mern stack web developer with expertise in HTML, CSS, JavaScript, React, Express.js, Node.js, and MongoDB. With a strong foundation in front-end development, I strive to create captivating user
             interfaces and seamless user experiences. I enjoy turning ideas into functional and visually appealing websites and Web Applications.
           </p>
-          <div className="flex gap-5">
-            <a href="/public/Yeasin_Resume.pdf" download>
+          <div className="flex flex-col gap-5">
+            <a href="https://drive.google.com/file/d/1ILwym6on5wZpjswXn65mJ2s9lorqg-57/view?usp=drive_link" download>
               <button
                 type="submit"
-                className=" bg-gradient-to-r from-[#49177e] to-orange-600 hover:to-green-500 flex justify-center items-center gap-1 text-white rounded-md px-4 py-2 focus:outline-none hover:bg-gray-600"
+                className=" bg-gradient-to-r from-[#62d118] to-purple-800 hover:from-blue-700 flex justify-center items-center gap-1 text-white rounded-md px-4 py-2 focus:outline-none hover:bg-gray-600"
               >
-                Resume
+                Download Resume
                 <span>
                   <FaFileDownload></FaFileDownload>
                 </span>
@@ -44,9 +44,9 @@ const Banner = () => {
             <HashLink to="#contact" smooth>
               <button
                 type="submit"
-                className=" bg-gradient-to-r from-[#391263] to-yellow-600 hover:to-blue-500 flex justify-center items-center gap-1 text-white rounded-md px-4 py-2 focus:outline-none hover:bg-gray-600"
+                className=" bg-gradient-to-r from-[#62d118] to-purple-800 hover:from-blue-700 flex justify-center items-center gap-1 text-white rounded-md px-4 py-2 focus:outline-none hover:bg-gray-600"
               >
-                Get in touch !
+                Hire Me!
                 <span>
                   <FaPhoneSquareAlt></FaPhoneSquareAlt>
                 </span>

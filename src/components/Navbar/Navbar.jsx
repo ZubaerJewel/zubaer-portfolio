@@ -99,12 +99,15 @@ const [theme, setTheme] = useState(() => {
             </div>
           </div>
           <div className="flex items-center">
-            <a href="/public/Yeasin_Resume.pdf" download>
+            <a href="https://drive.google.com/file/d/1ILwym6on5wZpjswXn65mJ2s9lorqg-57/view?usp=drive_link" download>
               <button
                 type="submit"
-                className="text-white bg-gradient-to-r from-[#49177e] to-green-600 hover:to-orange-500 flex justify-center items-center gap-1  rounded-md px-4 py-2 ml-2 focus:outline-none hover:bg-gray-600"
+                className="text-white bg-gradient-to-r 
+                from-[#62d118] to-purple-800 hover:from-blue-700 flex 
+                justify-center items-center gap-1  rounded-md px-4 py-2 ml-2 focus:outline-none
+                 hover:bg-gray-600"
               >
-                Resume
+                Download Resume
                 <span>
                   <FaFileDownload></FaFileDownload>
                 </span>
@@ -112,17 +115,7 @@ const [theme, setTheme] = useState(() => {
             </a>
             {/* </form> */}
             <div className="ml-4 flex items-center gap-3">
-              <button
-                type="button"
-                className="bg-gray-700  rounded-full flex items-center focus:outline-none"
-                onClick={toggleProfileModal}
-              >
-                <img
-                  className="h-10 w-10 rounded-full"
-                  src="https://i.ibb.co/fH4mhNq/Zubaer-Hossain300x350.jpg"
-                  alt="User Profile"
-                />
-              </button>
+              
 
               <div onClick={handleTheme}>
                 {theme === "dark" ? (

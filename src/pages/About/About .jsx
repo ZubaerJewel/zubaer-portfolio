@@ -5,14 +5,14 @@ import { FaFacebook, FaGithub, FaInstagram } from "react-icons/fa";
 
 const About = () => {
   return (
-    <div className="py-12" id="about">
+    <div className="py-12 items-center" id="about">
       <h1 className="text-3xl font-semibold text-center py-20 dark:text-[#8892B0]">
         About Me 
       </h1>
 
       <div className="  mx-auto">
-        <div className="flex flex-col md:flex-row md:pr-8">
-          <div className="relative flex justify-center items-center md:w-1/2 py-12">
+        <div className=" md:flex-row md:pr-8">
+          <div className="relative  justify-center items-center md:w-1/2 py-12">
             <img
               src="https://i.ibb.co/fH4mhNq/Zubaer-Hossain300x350.jpg"
               className="rounded-full h-80 w-80"
@@ -33,7 +33,7 @@ const About = () => {
               <FaInstagram></FaInstagram>
             </a>
           </div>
-          <div className="md:w-1/2 md:pl-10">
+          <div className="md:w-1/2 text-center md:pl-10">
             <p className="text-lg mb-4 text-justify">
               Hi, I am Zubaer Hossain. I'm a passionate web developer with a keen
               eye for detail, and a drive to create elegant, efficient, and
