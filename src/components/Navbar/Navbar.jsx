@@ -53,14 +53,14 @@ const [theme, setTheme] = useState(() => {
               />
             </HashLink>
 
-            <p className="text-2xl text-yellow-300 font-bold bg-gradient-to-r 
+            <p className="uppercase text-xl text-yellow-300 font-bold bg-gradient-to-r 
                 from-[#62d118] to-purple-800 hover:from-blue-700">
               <span className="dark:from-purple-800 to-[#62d118]">Z</span>ubaer
               <span className="dark:from-purple-800 to-[#62d118]"> Hossain</span>
             </p>
           </div>
           <div className="hidden md:block flex-grow text-3xl">
-            <div className="ml-10 flex text-yellow-300 items-baseline space-x-2 lg:ml-64">
+            <div className="ml-10 flex text-yellow-300 font-semibold items-baseline space-x-2 lg:ml-64">
               <HashLink
                 to="#home"
                 smooth
@@ -104,7 +104,7 @@ const [theme, setTheme] = useState(() => {
             <a href="https://drive.google.com/file/d/1ILwym6on5wZpjswXn65mJ2s9lorqg-57/view?usp=drive_link" download>
               <button
                 type="submit"
-                className="text-white bg-gradient-to-r 
+                className="text-yellow-200 text-sm uppercase bg-gradient-to-r 
                 from-[#62d118] to-purple-800 hover:from-blue-700 flex 
                 justify-center items-center gap-1  rounded-md px-4 py-2 ml-2 focus:outline-none
                  hover:bg-gray-600"

@@ -33,7 +33,7 @@ const Banner = () => {
             <a href="https://drive.google.com/file/d/1ILwym6on5wZpjswXn65mJ2s9lorqg-57/view?usp=drive_link" download>
               <button
                 type="submit"
-                className=" bg-gradient-to-r from-[#62d118] to-purple-800 hover:from-blue-700 flex justify-center items-center gap-1 text-white rounded-md px-4 py-2 focus:outline-none hover:bg-gray-600"
+                className="text-yellow-300 bg-gradient-to-r from-[#62d118] to-purple-800 hover:from-blue-700 flex justify-center items-center gap-1 text-white rounded-md px-4 py-2 focus:outline-none hover:bg-gray-600"
               >
                 Download Resume
                 <span>
@@ -44,7 +44,7 @@ const Banner = () => {
             <HashLink to="#contact" smooth>
               <button
                 type="submit"
-                className=" bg-gradient-to-r from-[#62d118] to-purple-800 hover:from-blue-700 flex justify-center items-center gap-1 text-white rounded-md px-4 py-2 focus:outline-none hover:bg-gray-600"
+                className="text-yellow-300 bg-gradient-to-r from-[#62d118] to-purple-800 hover:from-blue-700 flex justify-center items-center gap-1 text-white rounded-md px-4 py-2 focus:outline-none hover:bg-gray-600"
               >
                 Hire Me!
                 <span>

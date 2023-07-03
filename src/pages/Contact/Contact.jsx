@@ -15,10 +15,10 @@ const Contact = () => {
   }
 
     return (
-          <div className='my-10 mx-20 rounded-lg pb-5' id='contact' data-aos="fade-up" data-aos-duration="2000" data-aos-easing="ease-out-cubic">
+          <div className='my-10 mx-20 rounded-lg pb-5 md:my-5 md:pt-28 ' id='contact' data-aos="fade-up" data-aos-duration="2000" data-aos-easing="ease-out-cubic">
             <h2 className='shadow-lg shadow-white bg-gradient-to-r 
                 from-[#62d118] my-20 to-purple-800 text-center text-7xl text-yellow-300 font-bold mt-5 '>Contact Me</h2>
-            <div className='group relative cursor-pointer grid lg:grid-cols-2 gap-5'>
+            <div className='group relative cursor-pointer grid lg:grid-cols-2 gap-5 md:text-justify sm:gtid-cols-1'>
                 <div>
                 <form onSubmit={handleContact}>
                 <div className="dark:text-[#8892B0] form-control">
@@ -40,11 +40,12 @@ const Contact = () => {
                   <textarea className="textarea textarea-bordered h-24 bg-white
                    text-black rounded-lg" placeholder="Write Your Message" required></textarea>
                 </div>
-                <input className='btn btn-primary mt-3 text-white' type="submit" value="Send Message" />
+                <input className='btn  mt-3 text-yellow-200 bg-gradient-to-r 
+                from-[#62d118] to-purple-800 hover:from-blue-700' type="submit" value="Send Message" />
                 </form>
 
                 </div>
-                <div className="text-justify py-8 ml-20">
+                <div className="text-justify py-8 ">
                     <h2 className='text-center text-2xl font-bold m-5 p-5 border-b-2 border-gray-500 w-1/2 mx-auto'>Contact Info</h2>
                     <div className='flex items-center  gap-3 text-center ml-10 pt-5 font-semibold text-xl'>
                         <FaMailBulk></FaMailBulk>

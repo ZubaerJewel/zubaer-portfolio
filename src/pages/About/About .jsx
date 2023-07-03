@@ -28,7 +28,7 @@ const AboutMe = () => {
             web experiences.
           </p>
         </div>
-        <div className="m-3 p-3 leading-6 dark:text-[#8892B0] border text-justify shadow-lg rounded-lg md:w-1/2 animate__animated animate__slideInRight animate__delay-5s">
+        <div className="m-3 p-3 leading-6 dark:text-[#8892B0] border text-justify shadow-lg rounded-lg md:w-auto animate__animated animate__slideInRight animate__delay-5s">
           <p>
             I am a Highly motivated web developer with a passion for creating
             visually appealing and user friendly websites. I am a continuous
